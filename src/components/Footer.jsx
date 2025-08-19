@@ -10,11 +10,11 @@ export default function Footer() {
             Siap tingkatkan <br /> Karir anda?
           </h2>
           <div className="flex flex-col sm:flex-row gap-4">
-            <a
+            <button
               href="#daftar"
               className="px-6 py-3 bg-blue-100 text-gray-900 font-semibold rounded-full shadow hover:bg-blue-500 transition">
               Daftar Sekarang
-            </a>
+            </button>
           </div>
         </div>
       </div>

@@ -11,7 +11,6 @@ export default function App() {
       <About />
       <Benefits />
       <Testimonials />
-
       <Footer />
     </div>
   );

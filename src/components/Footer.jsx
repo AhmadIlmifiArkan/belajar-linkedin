@@ -10,11 +10,11 @@ export default function Footer() {
             Siap tingkatkan <br /> Karir anda?
           </h2>
           <div className="flex flex-col sm:flex-row gap-4">
-            <button
+            <a
               href="#daftar"
-              className="px-6 py-3 bg-blue-100 text-gray-900 font-semibold rounded-full shadow hover:bg-blue-500 transition">
+              className="px-6 py-3 bg-blue-100 text-gray-900 font-semibold rounded-full shadow hover:bg-blue-500 transition text-center">
               Daftar Sekarang
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -25,16 +25,16 @@ export default function Footer() {
           <h3 className="text-white font-semibold mb-4">Company</h3>
           <ul className="space-y-2 text-white-400">
             <li>
-              <a href="#">About Us</a>
+              <a href="/about">About Us</a>
             </li>
             <li>
-              <a href="#">Case Studies</a>
+              <a href="/case-studies">Case Studies</a>
             </li>
             <li>
-              <a href="#">Blogs</a>
+              <a href="/blogs">Blogs</a>
             </li>
             <li>
-              <a href="#">Book a Demo</a>
+              <a href="/book-demo">Book a Demo</a>
             </li>
           </ul>
         </div>
@@ -42,16 +42,16 @@ export default function Footer() {
           <h3 className="text-white font-semibold mb-4">Resources</h3>
           <ul className="space-y-2 text-white-400">
             <li>
-              <a href="#">Integrations</a>
+              <a href="/integrations">Integrations</a>
             </li>
             <li>
-              <a href="#">Blog</a>
+              <a href="/blog">Blog</a>
             </li>
             <li>
-              <a href="#">Become a Partner</a>
+              <a href="/partners">Become a Partner</a>
             </li>
             <li>
-              <a href="#">Demo Store</a>
+              <a href="/demo-store">Demo Store</a>
             </li>
           </ul>
         </div>
@@ -59,16 +59,16 @@ export default function Footer() {
           <h3 className="text-white font-semibold mb-4">Product</h3>
           <ul className="space-y-2 text-white-400">
             <li>
-              <a href="#">LinkedIn Optimization</a>
+              <a href="/linkedin-optimization">LinkedIn Optimization</a>
             </li>
             <li>
-              <a href="#">Career Coaching</a>
+              <a href="/career-coaching">Career Coaching</a>
             </li>
             <li>
-              <a href="#">Video Training</a>
+              <a href="/video-training">Video Training</a>
             </li>
             <li>
-              <a href="#">Community</a>
+              <a href="/community">Community</a>
             </li>
           </ul>
         </div>
